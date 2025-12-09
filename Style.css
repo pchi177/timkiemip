@@ -1,0 +1,54 @@
+body {
+    background-color: #ffe6f2; /* hồng nhạt */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #d63384;
+}
+
+.search-box {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ffb6c1;
+    border-radius: 8px;
+    outline: none;
+}
+
+.search-box button {
+    padding: 10px 15px;
+    background-color: #ff8fb1;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #ff6fa3;
+}
+
+.result-box {
+    background: #ffd6e7;
+    padding: 15px;
+    border-radius: 10px;
+    white-space: pre-line;
+}
